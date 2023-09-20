@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(15, 102, 173);
+    height: 100vh;
+    text-align: center; /* <---pa que rayos es esto??? */
+}
+
+  .centrar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+    #Container{
+      width: 400px;
+      height: 200px;
+      background-color: white;
+      border: 5px solid black;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    #texto-hex{
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    #boton{
+      background-color: #0F66AD;
+      border-radius: 15px;
+      border-width: 4px;
+      border-color: #000000;
+      padding: 15px 15px;
+      cursor: pointer;
+      transition: 0.4s;
+      user-select: none;
+    }
+
+    #boton:hover{
+      background-color: #0c4777;
+    }
